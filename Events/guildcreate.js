@@ -114,8 +114,14 @@ module.exports = {
                 }
             }
             for (const perm of req_perms) {
-                if (!guild.me.permissions.has(perm)) return message.reply({
+                config.owners.forEach(i => {
+                  let owner = client.users.cache.get(i)
+                  if(!owner) return
+                  owner.send({
                     content: `I am missing the following permission: \`${perm}\`, please disable the correlating configurations for this permission`
+                }).catch(err => {
+                    return;
+                })
                 })
             }
             all_configs.forEach(c => {
